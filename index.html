@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flag Project</title>
+    <style>
+     
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Flag Project</title>
-  <style>
-    .flag {
-      background-color: #CE1126;
-      width: 900px;
-      height: 600px;
-      /*margin-top: -8px;*/
-      position: relative;
-      top: -8px;
-    }
+      .flag {
+        background-color: #ce1126;
+        width: 900px;
+        height: 600px;
+        position: relative;
+        top: -8px;
+        /*margin-top: -8px;*/
+      }
 
-    .flag > div {
-      background-color: #002868;
-      width: 900px;
-      height: 300px;
-      position: absolute;
-      top: 150px;
-    }
-  </style>
-</head>
+      
+      .flag > div {
+        background-color: #002868;
+        width: 900px;
+        height: 300px;
+        position: absolute;
+        top: 150px;
+      }
+      
 
-<!-- 
+
+
+      
+    </style>
+  </head>
+
+  <!-- 
 Use what you know about combining selectors 
 and CSS specificity instead.
 Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
 -->
 
-<body>
-  <div class="flag">
-    <p>The Flag</p>
-    <div>
+  <body>
+    <div class="flag">
+      <p>The Flag</p>
       <div>
-        <p>of Laos</p>
+        <div>
+          <p>of Laos</p>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
