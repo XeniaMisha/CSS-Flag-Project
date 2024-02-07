@@ -4,33 +4,42 @@
     <meta charset="UTF-8" />
     <title>CSS Flag Project</title>
     <style>
+      .flag {
+        background-color: #ce1126;
+        width: 900px;
+        height: 600px;
+        position: relative;
+      }
 
-.flag {
-  background-color: #CE1126;
-  width: 900px;
-  height: 600px;
-  position: relative;
-  top: -8px;
-}
+      .flag > div {
+        background-color: #002868;
+        width: 900px;
+        height: 300px;
+        position: absolute;
+        top: 150px;
+      }
 
-.flag > div {
-  background-color: #002868;
-  width: 900px;
-  height: 300px;
-  position: absolute;
-  top: 150px;
-}
+      .flag > div > div {
+        background-color: #ffff;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 350px;
+      }
 
-.flag > div > div {
-  background-color: #FFFF;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  position: absolute;
-  top: 50px;
-  left: 350px;
-}
+      p {
+        color: #ffff;
+        text-align: center;
+        font-size: 5rem;
+        padding: 0;
+        margin: 0;
+      }
 
+      .flag > div div p {
+        color: black;
+      }
     </style>
   </head>
 
